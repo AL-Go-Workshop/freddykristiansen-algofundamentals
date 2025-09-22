@@ -9,7 +9,7 @@
     }
   ],
   "generateDependencyArtifact": true,
-  "templateSha": "28064b88b369f47fcfdc3042cc40a535855a5da9",
+  "templateSha": "a77a5132b51df86a831d565a3ea0c27639336806",
   "DeployToCustom": {
     "EnvironmentType": "Onprem"
   }
