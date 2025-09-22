@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.3/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "templateUrl": "https://github.com/AL-Go-Workshop/freddykristiansen-ptetemplate@main",
   "trustedNuGetFeeds": [
     {
       "url": "https://api.nuget.org/v3/index.json",
@@ -9,7 +9,7 @@
     }
   ],
   "generateDependencyArtifact": true,
-  "templateSha": "920b9e1a65667be8e6d54cb478fae5f2847aa3ea",
+  "templateSha": "28064b88b369f47fcfdc3042cc40a535855a5da9",
   "DeployToCustom": {
     "EnvironmentType": "Onprem"
   }
