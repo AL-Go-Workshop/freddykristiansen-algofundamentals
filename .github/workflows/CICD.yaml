@@ -26,7 +26,7 @@ env:
 
 jobs:
   Initialization:
-    needs: [ ]
+    needs: [ CustomJob_MyInit ]
     runs-on: [ ubuntu-latest ]
     outputs:
       telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
@@ -371,3 +371,12 @@ jobs:
           shell: pwsh
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}
           currentJobContext: ${{ toJson(job) }}
+
+  # DO NOT EDIT. The following job was added through a custom template.
+  CustomJob_MyInit:
+    needs: [ ]
+    runs-on: [ windows-latest ]
+    steps:
+      - name: MyInitScript
+        run: |
+          Write-Host "Hello world"
